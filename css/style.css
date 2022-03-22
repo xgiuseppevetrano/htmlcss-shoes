@@ -14,10 +14,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.container {
-    max-width: 800px;
-}
-
 /* HEADER */
 header {
     background-color: transparent;
@@ -31,9 +27,10 @@ header {
 .header-nav {
     margin-top: 15px;
     text-align: right;
+    display: block;
 }
 
-.header-nav, .header-nav ul li {
+.header-nav ul li {
     display: inline-block;
 }
 
@@ -52,14 +49,14 @@ section {
     height: 100vh;
 }
 
-.first-shoes {
+#first-shoes {
     background-color: red;
 }
 
-.second-shoes {
+#second-shoes {
     background-color: green;
 }
 
-.third-shoes {
+#third-shoes {
     background-color: yellow;
 }
