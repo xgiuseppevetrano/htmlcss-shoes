@@ -44,6 +44,10 @@ header {
     margin-right: 15px;
 }
 
+.header-nav ul li a:hover {
+    background-color: lightgray;
+}
+
 /* MAIN */
 section {
     height: 100vh;
