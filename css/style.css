@@ -47,6 +47,7 @@ header {
 /* MAIN */
 section {
     height: 100vh;
+    position: relative;
 }
 
 #first-shoes {
@@ -59,4 +60,19 @@ section {
 
 #third-shoes {
     background-color: yellow;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box img {
+    height: 350px;
+}
+
+.box h1{
+    text-transform: uppercase;
 }
