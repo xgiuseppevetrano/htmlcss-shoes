@@ -9,3 +9,57 @@
 body {
     font-family: 'Roboto Mono', monospace;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 800px;
+}
+
+/* HEADER */
+header {
+    background-color: transparent;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-nav {
+    margin-top: 15px;
+    text-align: right;
+}
+
+.header-nav, .header-nav ul li {
+    display: inline-block;
+}
+
+.header-nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 16px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+/* MAIN */
+section {
+    height: 100vh;
+}
+
+.first-shoes {
+    background-color: red;
+}
+
+.second-shoes {
+    background-color: green;
+}
+
+.third-shoes {
+    background-color: yellow;
+}
